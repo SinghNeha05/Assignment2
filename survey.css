@@ -1,0 +1,37 @@
+#survey {
+  text-align: center;
+  font-family: cursive;
+  background-color: rgb(52, 160, 160);
+}
+.formSection {
+  background-color: beige;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.heading {
+  font-size: x-large;
+}
+.spanStyle {
+  display: block;
+}
+.inputStyle {
+  text-align: center;
+  overflow: auto;
+}
+#tableStyle {
+  width: 100%;
+}
+table,
+tr,
+td {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+.tdLeft {
+  padding: 5px;
+  text-align: left;
+}
+.tdRight {
+  padding: 5px;
+  text-align: right;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <div id="survey">
+      <span class="heading">Survey Form</span>
+      <div class="formSection">
+        <span class="spanStyle"
+          >Let us know how can we improve freeCodeCamp</span
+        >
+
+        <div class="inputStyle">
+          <table id="tableStyle">
+            <tr>
+              <td style="width: 47%;" class="tdRight">*Name</td>
+              <td class="tdLeft">
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td class="tdRight">*Email</td>
+              <td class="tdLeft">
+                <input type="email" />
+              </td>
+            </tr>
+            <tr>
+              <td class="tdRight">*Age</td>
+              <td class="tdLeft">
+                <input type="number" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="tdRight">
+                Which option describes your current role?
+              </td>
+              <td class="tdLeft">
+                <select>
+                  <option value="">Select</option>
+                  <option value="Student">Student</option>
+                  <option value="Engineer">Engineer</option>
+                  <option value="Manager">Manager</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="width: 47%" class="tdRight">
+                *How likely is that you would recommend freeCodeCamp to a
+                friend?
+              </td>
+              <td class="tdLeft">
+                <input
+                  type="radio"
+                  name="recommend"
+                  value="Definitely"
+                  checked
+                />
+                Definitely
+                <br />
+                <input type="radio" name="recommend" value="May be" /> May be
+                <br />
+                <input type="radio" name="grecommendender" value="Not Sure" />
+                Not Sure
+              </td>
+            </tr>
+
+            <tr>
+              <td class="tdRight">
+                What do you like most in FCC?
+              </td>
+
+              <td class="tdLeft">
+                <select>
+                  <option value="">Select</option>
+                  <option value="Code Help">Code Help</option>
+                  <option value="Good metrial">Good metrial</option>
+                  <option value="other">other</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="tdRight">
+                Things that should be improved in future (Check all that apply):
+              </td>
+              <td class="tdLeft">
+                <input
+                  type="checkbox"
+                  name="improvements"
+                  value="Front-end Projects"
+                />
+                Front-end Projects
+                <br />
+                <input
+                  type="checkbox"
+                  name="improvements"
+                  value="Back-end Projects"
+                />Back-end Projects
+                <br />
+                <input
+                  type="checkbox"
+                  name="improvements"
+                  value="Data Visualization"
+                  checked
+                />
+                Data Visualization>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
